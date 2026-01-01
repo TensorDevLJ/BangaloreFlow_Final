@@ -10,12 +10,13 @@ const PORT = process.env.PORT || 5000;
 
 // Middleware
 app.use(cors({
-  origin: [
-    "https://bangalore-flow-likhithajagadeesh.vercel.app"
-  ],
+  origin: ["https://bangalore-flow-likhithajagadeesh.vercel.app"],
   methods: ["GET", "POST", "PUT", "DELETE"],
-  credentials: false
+  credentials: false,
 }));
+
+app.use(express.json()); // ✅ REQUIRED
+
 
 
 // MongoDB Connection

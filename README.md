@@ -1,3 +1,4 @@
+
 # 🚀 BangaloreFlow - Smart Mobility Decision Platform
 
 BangaloreFlow is a full-stack web application that helps users in Bangalore compare transportation options across multiple ride-hailing services, metro, and public transport. Make smarter travel decisions by seeing fares, times, and recommendations all in one place.
@@ -499,3 +500,5 @@ If you encounter issues:
 **Note**: This is a decision-support platform. We don't book rides or store payment information. Users are redirected to official provider apps for actual booking.
 
 Built with ❤️ for Bangalore
+
+
